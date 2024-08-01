@@ -1,0 +1,6 @@
+CompileFlags:
+  Add:
+    - --cuda-path=/home/stu11/s9/yz7290/miniconda3/
+    - --cuda-gpu-arch=sm_52
+    - -LC:/home/stu11/s9/yz7290/miniconda3/lib
+    - -IC:/home/stu11/s9/yz7290/miniconda3/include

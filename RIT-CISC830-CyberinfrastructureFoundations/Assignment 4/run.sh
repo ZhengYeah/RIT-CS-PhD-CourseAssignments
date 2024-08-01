@@ -1,0 +1,1 @@
+./discretelog_bsgs_cuda $1 $2

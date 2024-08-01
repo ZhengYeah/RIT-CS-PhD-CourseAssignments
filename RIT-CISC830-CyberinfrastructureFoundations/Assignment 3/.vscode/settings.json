@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "/home/stu11/s9/yz7290/hw3/"
+    ],
+    "python.analysis.typeCheckingMode": "basic"
+}

@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Nsight: autostart (localhost)",
+			"command": "nvcc -g --compiler-options=-fopenmp,-Wall,-march=native,-std=c++11,-fPIC -G tensor_omp_cuda.cu -o tensor_omp_cuda",
+			"problemMatcher": ["$nvcc"],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}

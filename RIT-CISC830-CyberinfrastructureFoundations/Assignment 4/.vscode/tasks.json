@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Nsight: autostart (localhost)",
+			"command": "nvcc --compiler-options=-g,-fopenmp,-Wall,-march=native,-std=c++11,-fPIC -G discretelog_bsgs_cuda.cu -o discretelog_bsgs_cuda",
+			"problemMatcher": ["$nvcc"],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
