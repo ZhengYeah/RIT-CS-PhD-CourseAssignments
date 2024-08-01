@@ -1,6 +1,6 @@
 # RIT-CISC830-Cyberinfrastructure-Foundation-Assignments
 
-Solutions of assignments for the course CISC-830 Cyberinfrastructure Foundations.
+Solutions for assignments of CISC-830 Cyberinfrastructure Foundations (2024 Spring).
 
 # Contents
 

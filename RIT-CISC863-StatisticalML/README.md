@@ -1,6 +1,6 @@
 # RIT-CISC863-StatisticalML
 
-Solutions of assignments for the course CISC-863 Statistical Machine Learning.
+Solutions for assignments of CISC-863 Statistical Machine Learning (2024 Spring).
 
 # Contents
 
