@@ -32,14 +32,7 @@ for i in range(3):
         ax_1.plot(plot_data[i]["long"].values[j:j + 2], plot_data[i]["lat"].values[j:j + 2], color="red",
                      linewidth=line_widths[j])
 
-# plt.figure(figsize=(10, 5))
-# plt.ylim(53, 57)
-# plt.xlim(22.5, 39)
-# for i in range(3):
-#     line_widths = plot_data[i]["survivors"].values / 10000
-#     for j in range(len(plot_data[i]) - 1):
-#         plt.plot(plot_data[i]["long"].values[j:j + 2], plot_data[i]["lat"].values[j:j + 2], color="red",
-#                  linewidth=line_widths[j])
+
 retreat = data_troops["direction"].values == "R"
 plot_data = data_troops[retreat]
 plot_data = [plot_data[:19], plot_data[19:23], plot_data[23:]]
@@ -58,6 +51,7 @@ Step 3: draw the second graph (temperature)
 """
 plot_data = data_temps.sort_values("long")
 ax_2.set_ylim(-32, 2)
+ax_2.set_xlim(22.5, 39)
 ax_2.plot(plot_data["long"], plot_data["temp"], marker="o", color="blue")
 for i in range(len(plot_data)):
     ax_2.text(plot_data["long"].values[i], plot_data["temp"].values[i], f'{plot_data["month"].values[i]}{plot_data["day"].values[i]}', fontsize=9,
@@ -71,3 +65,4 @@ Step 4: Add labels to both graphs
 """
 Step 5: Combine the graphs in a FacetGrid
 """
+# combined with Step 2 and Step 3
