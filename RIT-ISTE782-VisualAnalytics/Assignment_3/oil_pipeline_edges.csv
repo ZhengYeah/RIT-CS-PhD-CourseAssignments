@@ -1,0 +1,21 @@
+﻿id,source,target,label
+1,6,32,Adria oil pipeline
+2,6,15,Adria oil pipeline
+3,5,23,AMBO pipeline
+4,23,42,AMBO pipeline
+5,43,41,Brent System
+6,5,14,Burgas–Alexandroupoli pipeline
+7,31,40,Druzhba pipeline
+8,31,21,Druzhba pipeline
+9,31,19,Druzhba pipeline
+10,31,13,Druzhba pipeline
+11,40,7,Druzhba pipeline
+12,40,6,Druzhba pipeline
+13,30,6,Pan-European Oil Pipeline
+14,6,34,Pan-European Oil Pipeline
+15,34,2,Pan-European Oil Pipeline
+16,34,13,Pan-European Oil Pipeline
+17,18,2,Transalpine Pipeline
+18,2,13,Transalpine Pipeline
+19,11,37,South European Pipeline
+20,37,13,South European Pipeline
